@@ -2,7 +2,7 @@ class Api::V1::RecipesController < ApplicationController
 
   def index
 
-    country = CountryFacade.randoo
+    country = CountryFacade.random_c
     #recipes = RecipesFacade.get_recipes(country)
     #render json: RecipesSerializer.new(recipes)
   end

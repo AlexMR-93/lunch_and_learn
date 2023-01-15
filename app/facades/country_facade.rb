@@ -4,10 +4,10 @@ class CountryFacade
   data = CountryService.get_all_countries
   data.map do |all_c|
     Country.new(all_c)
-    en
-
-    def self.randoo
-      rando = CountryService.random_country
-      rando.sample
+    end
+  end
+    def self.random_c
+      random_c = CountryFacade.random_country
+      random_c.sample
     end
 end

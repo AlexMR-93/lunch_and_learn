@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="080d9822-e46a-4776-9982-76e10e89ee26" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/poros/country.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/facades/country_facade_spec.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/api/v1/recipes_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/api/v1/recipes_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/facades/country_facade.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/facades/country_facade.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/country_service.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/country_service.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +129,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673746957606</updated>
-      <workItem from="1673746959180" duration="23775000" />
+      <workItem from="1673746959180" duration="25870000" />
     </task>
     <servers />
   </component>
