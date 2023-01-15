@@ -1,8 +1,9 @@
 class Api::V1::RecipesController < ApplicationController
 
   def index
-    recipes = RecipesFacade.get_recipes(params[:country])
-    binding.pry
-    render json: RecipesSerializer.new(recipes)
+    country = CountryFacade.pick_country
+
+    # recipes = RecipesFacade.get_recipes(country)
+    #render json: RecipesSerializer.new(recipes)
   end
 end
