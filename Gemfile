@@ -20,6 +20,7 @@ gem 'faraday'
 group :development, :test do
   gem 'pry'
   gem 'figaro'
+  gem 'simplecov'
 end
 
 group :test do
