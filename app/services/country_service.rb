@@ -4,8 +4,8 @@ class CountryService
   def self.conn
     Faraday.new("https://restcountries.com")
   end
-  def self.find_country(country)
-    response = conn.get("/v3.1/name/#{country}")
-    x = JSON.parse(response.body,symbolize_names: true)
+  def self.get_all_countries
+    response = conn.get("/v3.1/all")
+   JSON.parse(response.body,symbolize_names: true)
+    end
   end
-end

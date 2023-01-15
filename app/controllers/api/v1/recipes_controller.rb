@@ -1,8 +1,9 @@
 class Api::V1::RecipesController < ApplicationController
 
   def index
-    country = CountryFacade.pick_country(params[:country])
-    recipes = RecipesFacade.get_recipes(country)
+
+    country = CountryFacade.randoo
+    #recipes = RecipesFacade.get_recipes(country)
     #render json: RecipesSerializer.new(recipes)
   end
 end

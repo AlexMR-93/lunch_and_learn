@@ -1,8 +1,13 @@
 class CountryFacade
 
-  def self.pick_country(country)
-  data = CountryService.find_country(country)
-  country_loc = data.first[:name][:common]
+  def self.random_country
+  data = CountryService.get_all_countries
+  data.map do |all_c|
+    Country.new(all_c)
+    en
 
-  end
+    def self.randoo
+      rando = CountryService.random_country
+      rando.sample
+    end
 end
