@@ -24,4 +24,23 @@ RSpec.describe 'recipes#index', :vcr do
       end
     end
   end
+  describe 'sad path' do
+    describe 'when a request is made to api/v1/recipes' do
+      it 'returns a json response' do
+        get "/api/v1/recipes"
+
+        expect(response).to be_successful
+        result = JSON.parse(response.body,symbolize_names: true)
+        expect(result).to have_key(:data)
+        expect(result[:data]).to be_an Array
+        expect(result[:data].first).to have_key(:id)
+        expect(result[:data].first[:id]).to eq(nil)
+        expect(result[:data].first).to have_key(:type)
+        expect(result[:data].first[:type]).to eq("recipes")
+        expect(result[:data].first).to have_key(:attributes)
+        expect(result[:data].first[:attributes][:id]).to eq(nil)
+        expect(result[:data].first[:attributes][:country]).to be_a(String)
+      end
+    end
+  end
 end
