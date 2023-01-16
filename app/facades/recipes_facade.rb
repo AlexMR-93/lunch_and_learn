@@ -1,7 +1,10 @@
 class RecipesFacade
 
   def self.get_recipes(country)
-    data = EdamamService.recipes_loc(country)
-    binding.pry
+    data = RecipesService.recipes_loc(country)
+    recipes = data[:hits].map do |recipe|
+      Recipe.new(recipe,country)
+
+    end
   end
 end
