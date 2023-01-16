@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="080d9822-e46a-4776-9982-76e10e89ee26" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/poros/recipe.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/recipes_service.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/services/country_service_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/services/recipe_service_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/poros/recipe_poro_spec.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/api/v1/recipes_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/api/v1/recipes_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/facades/recipes_facade.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/facades/recipes_facade.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/poros/recipe.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/poros/recipe.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/requests/spec/recipes/index_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/requests/spec/recipes/index_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/services/recipe_service_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/services/recipe_service_spec.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +131,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673746957606</updated>
-      <workItem from="1673746959180" duration="33985000" />
+      <workItem from="1673746959180" duration="45490000" />
     </task>
     <servers />
   </component>

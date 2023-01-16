@@ -8,7 +8,7 @@ RSpec.describe 'recipes#index', :vcr do
         get "/api/v1/recipes?country=#{country}"
 
         expect(response).to be_successful
-        result = json(response)
+        result = JSON.parse(response.body,symbolize_names: true)
         expect(result).to have_key(:data)
 
         data = result[:data]
