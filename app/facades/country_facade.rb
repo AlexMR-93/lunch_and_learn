@@ -9,9 +9,9 @@ class CountryFacade
     def self.random_c
       CountryFacade.random_country.sample
     end
-  def self.get_country_pick(country)
+  def self.get_country_pick(name)
 
-    CountryService.air_info(country)
+    CountryService.one_country(name)
 
   end
 end
