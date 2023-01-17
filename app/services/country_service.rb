@@ -10,7 +10,7 @@ class CountryService
   end
   def self.one_country(name)
     response = conn.get("/v3.1/name/#{name}")
-    x = JSON.parse(response.body, symbolize_names: true).first
+    JSON.parse(response.body, symbolize_names: true)
     binding.pry
   end
 end

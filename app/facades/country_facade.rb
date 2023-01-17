@@ -10,8 +10,8 @@ class CountryFacade
       CountryFacade.random_country.sample
     end
   def self.get_country_pick(name)
-
     CountryService.one_country(name)
 
+    binding.pry
+    end
   end
-end
