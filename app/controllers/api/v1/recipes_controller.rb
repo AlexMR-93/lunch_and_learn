@@ -4,7 +4,6 @@ class Api::V1::RecipesController < ApplicationController
     if  params[:country].present?
     recipes = RecipesFacade.get_recipes(params[:country])
     render json: RecipesSerializer.new(recipes)
-    binding.pry
     elsif !params[:country]
       randomly_pick_country = CountryFacade.random_c
       recipes = RecipesFacade.get_recipes(randomly_pick_country.name)

@@ -7,7 +7,6 @@ class CountryFacade
     end
   end
     def self.random_c
-      random_c = CountryFacade.random_country
-      random_c.sample
+      CountryFacade.random_country.sample
     end
 end

@@ -8,7 +8,6 @@ def self.conn
 end
 def self.recipes_loc(country)
   response = conn.get("/api/recipes/v2?type=public&q=#{country}")
-    JSON.parse(response.body,symbolize_names: true)
-
+  JSON.parse(response.body,symbolize_names: true)
   end
 end
