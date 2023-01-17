@@ -53,7 +53,7 @@ RSpec.describe 'recipes#index', :vcr do
         VCR.insert_cassette("non_existant_country")
         expect(response).to be_successful
         result = JSON.parse(response.body,symbolize_names: true)
-        expect(result).to eq(render json: {
+        expect(result).to eq({
           "data": []
         })
         VCR.eject_cassette
@@ -68,7 +68,7 @@ RSpec.describe 'recipes#index', :vcr do
         VCR.insert_cassette("non_existant_country")
         expect(response).to be_successful
         result = JSON.parse(response.body,symbolize_names: true)
-        expect(result).to eq(render json: {
+        expect(result).to eq( {
           "data": []
         })
         VCR.eject_cassette

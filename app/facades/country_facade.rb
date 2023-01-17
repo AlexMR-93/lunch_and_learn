@@ -9,4 +9,9 @@ class CountryFacade
     def self.random_c
       CountryFacade.random_country.sample
     end
+  def self.final(country)
+
+    CountryService.testing(country)
+
+  end
 end
