@@ -7,8 +7,17 @@ RSpec.describe 'air quality #show' do
         country = "India"
         get "/api/v1/air_quality?country=#{country}"
         expect(response).to be_successful
-        data = JSON.parse(response.body,symbolize_names: true)
+        final_data = JSON.parse(response.body,symbolize_names: true)
         binding.pry
+        expect(final_data).to be_a(Hash)
+        expect(final_data).to have_key(:data)
+        expect(final_data[:data]).to be_a(Array)
+        expect(final_data[:data].first).to have_key(:id)
+        expect(final_data[:data].first).to have_key(:type)
+        expect(final_data[:data].first).to have_key(:attributes)
+        expect(final_data[:data].first[:attributes]).to have_key(:aqi)
+        expect(final_data[:data].first[:attributes][:aqi]).to be_a(Integer)
+        expect(final_data[:data].first[:attributes][:dt]).to be_a(Integer)
 
       end
     end

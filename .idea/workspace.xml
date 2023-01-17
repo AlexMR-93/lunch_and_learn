@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="080d9822-e46a-4776-9982-76e10e89ee26" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/poros/air_quality.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/poros/air_quality_poro_spec.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/api/v1/air_quality_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/api/v1/air_quality_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/facades/air_quality_facade.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/facades/air_quality_facade.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/air_quality_service.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/air_quality_service.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/poros/air_quality.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/poros/air_quality.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/serializers/air_quality_serializer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/serializers/air_quality_serializer.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/poros/air_quality_poro_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/poros/air_quality_poro_spec.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spec/requests/spec/air_quality/show_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/requests/spec/air_quality/show_spec.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spec/vcr/air_quality_show/happy_path/when_a_request_is_made_to_/api/v1/air_quality_country_country/exists.yml" beforeDir="false" />
     </list>
@@ -133,7 +131,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673746957606</updated>
-      <workItem from="1673746959180" duration="87692000" />
+      <workItem from="1673746959180" duration="90653000" />
     </task>
     <servers />
   </component>
