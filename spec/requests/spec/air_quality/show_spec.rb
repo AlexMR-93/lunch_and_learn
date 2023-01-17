@@ -8,7 +8,6 @@ RSpec.describe 'air quality #show' do
         get "/api/v1/air_quality?country=#{country}"
         expect(response).to be_successful
         final_data = JSON.parse(response.body,symbolize_names: true)
-        binding.pry
         expect(final_data).to be_a(Hash)
         expect(final_data).to have_key(:data)
         expect(final_data[:data]).to be_a(Array)
