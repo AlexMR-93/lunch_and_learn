@@ -7,7 +7,8 @@ RSpec.describe 'air quality #show' do
         country = "India"
         get "/api/v1/air_quality?country=#{country}"
         expect(response).to be_successful
-        result = JSON.parse(response.body,symbolize_names: true)
+        data = JSON.parse(response.body,symbolize_names: true)
+        binding.pry
 
       end
     end
