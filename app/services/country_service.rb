@@ -11,6 +11,5 @@ class CountryService
   def self.one_country(name)
     response = conn.get("/v3.1/name/#{name}")
     JSON.parse(response.body, symbolize_names: true)
-    binding.pry
   end
 end
