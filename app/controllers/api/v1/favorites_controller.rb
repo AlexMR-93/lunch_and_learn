@@ -2,7 +2,7 @@ class Api::V1::FavoritesController < ApplicationController
 
   def create
 
-    if existing_user.valid?
+    if !existing_user.nil?
       existing_user.favorites.create!(favorite_params)
       render json: {success: "Favorite added successfully"}, status: 201
     else
