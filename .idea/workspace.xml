@@ -5,17 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="080d9822-e46a-4776-9982-76e10e89ee26" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/controllers/api/v1/users_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/requests/spec/users/user_request_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/lunch_and_learn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lunch_and_learn.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/api/v1/favorites_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/favorite.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/requests/spec/favorites/show_spec.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/api/v1/users_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/api/v1/users_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/vcr/learning_resources_show/happy_path/when_a_request_is_made_to_/api/v1/learning_resources_country_country/exists/makes_the_correct_hash_output.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/vcr/learning_resources_show/sad_path/when_a_request_is_made_to_/api/v1/learning_resources_country_country/exists/makes_the_correct_hash_output.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +132,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673746957606</updated>
-      <workItem from="1673746959180" duration="114933000" />
+      <workItem from="1673746959180" duration="119691000" />
     </task>
     <servers />
   </component>
