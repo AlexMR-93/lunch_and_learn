@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe RecipesService do
-  it '.get_recipes' do
+  it '.get_recipes', :vcr do
     response = RecipesService.recipes_loc("Mexico")
     expect(response).to be_a Hash
     expect(response).to have_key :from

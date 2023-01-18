@@ -39,7 +39,7 @@ RSpec.describe 'favorite #create' do
         data = JSON.parse(response.body,symbolize_names: true)
 
         expect(data).to be_a(Hash)
-        expect(data[:error]).to eq("Bad Request. User Not Valid.")
+        expect(data[:error]).to eq("Bad Request. Api keys do not match.")
         expect(response).to have_http_status(404)
       end
     end
