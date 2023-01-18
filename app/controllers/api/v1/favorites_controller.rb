@@ -4,6 +4,7 @@ class Api::V1::FavoritesController < ApplicationController
 
     if !existing_user.nil?
       existing_user.favorites.create!(favorite_params)
+      existing_user.save
       render json: {success: "Favorite added successfully"}, status: 201
     else
       render json: {error: "Bad Request. User Not Valid."}, status: 404
@@ -21,7 +22,7 @@ class Api::V1::FavoritesController < ApplicationController
     User.find_by(api_key: params[:api_key])
   end
     def favorite_params
-    params.permit(:country, :recipe_link, :recipe_title)
+    params.permit(:country, :recipe_link, :recipe_title, :created_at)
     end
   end
 

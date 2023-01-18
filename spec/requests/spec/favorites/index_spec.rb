@@ -27,6 +27,7 @@ describe 'happy path #index' do
       get "/api/v1/favorites?api_key=#{api_key1}"
 
       data = JSON.parse(response.body,symbolize_names: true)
+      binding.pry
       expect(data).to be_a(Hash)
     end
   end
