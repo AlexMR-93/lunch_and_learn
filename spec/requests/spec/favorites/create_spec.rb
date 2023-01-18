@@ -14,8 +14,8 @@ RSpec.describe 'favorite #create' do
         }
 
         post  "/api/v1/favorites", params: favorites
-
         data = JSON.parse(response.body,symbolize_names: true)
+
         expect(response).to be_successful
         expect(data).to be_a(Hash)
         expect(data[:success]).to eq("Favorite added successfully")
@@ -23,7 +23,7 @@ RSpec.describe 'favorite #create' do
       end
     end
   end
-  describe 'Sad path' do
+  describe 'Sad path#create' do
     describe 'when a request is made to POST /api/v1/favorites ' do
       it 'returns error message 404 and doesnt create the favorite', :vcr do
 
@@ -36,7 +36,6 @@ RSpec.describe 'favorite #create' do
         }
 
         post  "/api/v1/favorites", params: favorites
-
         data = JSON.parse(response.body,symbolize_names: true)
 
         expect(data).to be_a(Hash)
@@ -46,4 +45,3 @@ RSpec.describe 'favorite #create' do
     end
   end
 end
-  

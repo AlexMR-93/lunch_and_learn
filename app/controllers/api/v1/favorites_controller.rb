@@ -7,9 +7,11 @@ class Api::V1::FavoritesController < ApplicationController
       render json: {success: "Favorite added successfully"}, status: 201
     else
       render json: {error: "Bad Request. User Not Valid."}, status: 404
-
     end
-    end
+  end
+  def index
+    binding.pry
+  end
   private
 
   def existing_user
