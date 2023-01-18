@@ -16,6 +16,7 @@ gem 'coffee-rails', '~> 4.2'
 gem 'jbuilder', '~> 2.5'
 gem 'bootsnap'
 gem 'faraday'
+gem 'faker'
 
 group :development, :test do
   gem 'pry'
