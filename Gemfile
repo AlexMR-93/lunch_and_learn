@@ -22,6 +22,8 @@ group :development, :test do
   gem 'pry'
   gem 'figaro'
   gem 'simplecov'
+  gem 'shoulda-matchers'
+  gem 'orderly'
 end
 
 group :test do

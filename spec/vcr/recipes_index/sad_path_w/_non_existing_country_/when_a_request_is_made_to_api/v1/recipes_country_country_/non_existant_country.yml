@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.edamam.com/api/recipes/v2?app_id=4deadcce&app_key=3f51908adb4261faac1a305935b0f771&q=Equatorial%20Guinea&type=public
+    uri: https://api.edamam.com/api/recipes/v2?app_id=4deadcce&app_key=3f51908adb4261faac1a305935b0f771&q=Aaaaaaaaaaaaaaaa&type=public
     body:
       encoding: US-ASCII
       string: ''
@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - openresty
       Date:
-      - Wed, 18 Jan 2023 13:14:14 GMT
+      - Wed, 18 Jan 2023 13:38:31 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -37,9 +37,9 @@ http_interactions:
       Strict-Transport-Security:
       - max-age=15552001
       X-Request-Id:
-      - b55c97c91b626d83f3b05c40a7e20381
+      - dba591aa3536f7df16a91e0187f10b11
     body:
       encoding: UTF-8
       string: '{"from":1,"to":0,"count":0,"_links":{},"hits":[]}'
-  recorded_at: Wed, 18 Jan 2023 13:14:14 GMT
+  recorded_at: Wed, 18 Jan 2023 13:38:31 GMT
 recorded_with: VCR 6.1.0

@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="080d9822-e46a-4776-9982-76e10e89ee26" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spec/facades/unsplash_facade_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/facades/youtube_facade_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/models/favorite_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/models/user_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/lunch_and_learn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lunch_and_learn.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/vcr/RecipesFacade/Class_Methods/_get_recipes/should_.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/vcr/RecipesFacade/Class_Methods/returns_an_empty_array_if_country_has_no_recipes.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/vcr/UnsplashFacade/creates_a_total_of_10_image_objects_of_country.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/vcr/UnsplashFacade/if_no_images_were_found_return_empty_array.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +138,7 @@
       <updated>1673746957606</updated>
       <workItem from="1673746959180" duration="129903000" />
       <workItem from="1674032238708" duration="7673000" />
-      <workItem from="1674040889900" duration="7262000" />
+      <workItem from="1674040889900" duration="8461000" />
     </task>
     <servers />
   </component>
