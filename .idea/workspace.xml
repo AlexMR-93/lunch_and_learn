@@ -7,12 +7,7 @@
     <list default="true" id="080d9822-e46a-4776-9982-76e10e89ee26" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/api/v1/favorites_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/api/v1/favorites_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/serializers/favorite_serializer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/serializers/favorite_serializer.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spec/requests/spec/favorites/index_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/requests/spec/favorites/index_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/vcr/CountryFacade/Class_Methods/random_country/should_returns_country_objects.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/vcr/learning_resources_show/happy_path/when_a_request_is_made_to_/api/v1/learning_resources_country_country/exists/makes_the_correct_hash_output.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/vcr/recipes_index/happy_path/when_a_request_is_made_to_api/v1/recipes_country_country_/user_input_country.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +130,7 @@
       <updated>1673746957606</updated>
       <workItem from="1673746959180" duration="129903000" />
       <workItem from="1674032238708" duration="7673000" />
-      <workItem from="1674040889900" duration="1695000" />
+      <workItem from="1674040889900" duration="3682000" />
     </task>
     <servers />
   </component>
