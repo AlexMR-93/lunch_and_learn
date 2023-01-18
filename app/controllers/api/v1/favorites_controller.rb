@@ -10,8 +10,11 @@ class Api::V1::FavoritesController < ApplicationController
     end
   end
   def index
-    binding.pry
+    if existing_user.api_key == params[:api_key]
+    render json: FavoriteSerializer.new(existing_user.favorites)
+    end
   end
+
   private
 
   def existing_user
