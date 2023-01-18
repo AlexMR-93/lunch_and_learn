@@ -5,11 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="080d9822-e46a-4776-9982-76e10e89ee26" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/facades/country_facade.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/facades/country_facade.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/poros/country.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/poros/country.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/country_service.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/country_service.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/requests/spec/recipes/index_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/requests/spec/recipes/index_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/api/v1/learning_resources_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/api/v1/learning_resources_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/facades/youtube_facade.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/facades/youtube_facade.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/poros/learning_resources.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/poros/learning_resources.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/poros/unsplash.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/poros/unsplash.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/poros/youtube.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/poros/youtube.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/serializers/learning_resources_serializer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/serializers/learning_resources_serializer.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/serializers/recipes_serializer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/serializers/recipes_serializer.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/requests/spec/learning_resources/show_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/requests/spec/learning_resources/show_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/vcr/CountryFacade/Class_Methods/random_country/should_returns_country_objects.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/vcr/learning_resources_show/happy_path/when_a_request_is_made_to_/api/v1/learning_resources_country_country/exists.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/vcr/recipes_index/happy_path/when_a_request_is_made_to_api/v1/recipes_country_country_/user_input_country.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +138,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673746957606</updated>
-      <workItem from="1673746959180" duration="79577000" />
+      <workItem from="1673746959180" duration="104950000" />
     </task>
     <servers />
   </component>

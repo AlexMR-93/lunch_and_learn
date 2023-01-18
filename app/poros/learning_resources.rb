@@ -1,11 +1,10 @@
 class LearningResources
+  attr_reader :video, :images,:country
+  def initialize(youtube,unsplash,country)
+    @video = youtube.first
+    @images = unsplash
+    @country = country
+    @title = youtube
 
-  def initialize(youtube,unsplash)
-    @id = youtube.first.id
-    @country = youtube.first.country
-    @title = youtube.first.title
-    @video_id = youtube.first.video_id
-    @alt_tag = unsplash.first.alt_tag
-    @url = unsplash.first.url
   end
 end

@@ -4,7 +4,7 @@ class YoutubeFacade
 
     data = YoutubeService.video_location(country)
     data[:items].map do |hash|
-      Youtube.new(hash,country)
+      Youtube.new(hash)
     end
   end
 end
